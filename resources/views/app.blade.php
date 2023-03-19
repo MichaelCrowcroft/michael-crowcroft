@@ -8,20 +8,12 @@
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 
         <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lato&display=swap" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lato&display=swap" rel="stylesheet" />
 
         <!-- Scripts -->
         @routes
         @vite(['resources/js/app.js', "resources/js/Pages/{$page['component']}.vue"])
         @inertiaHead
-
-        <!-- Analytics -->
-        @production
-            <script data-goatcounter="https://mikel205.goatcounter.com/count"
-                    async src="//gc.zgo.at/count.js">
-            </script>
-        @endproduction
     </head>
     <body class="font-sans antialiased">
         @inertia
