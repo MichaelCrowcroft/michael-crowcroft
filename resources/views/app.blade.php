@@ -8,7 +8,8 @@
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 
         <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lato&display=swap" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com/">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lato&display=swap" rel="stylesheet" />
 
         <!-- Scripts -->
         @routes
