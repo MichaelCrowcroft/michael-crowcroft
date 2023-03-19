@@ -1,0 +1,17 @@
+<?php
+
+namespace Database\Factories;
+
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+class CollectionFactory extends Factory
+{
+    public function definition()
+    {
+        return [
+            'name' => fake()->sentence(),
+            'category' => 'work',
+            'body' => fake()->paragraph(),
+        ];
+    }
+}
