@@ -45,6 +45,13 @@ class DatabaseSeeder extends Seeder
             'category' => 'work',
             'body' => file_get_contents('database/seeders/posts/ad-supported-streaming-sucks.md')
         ]);
+        Post::create([
+            'title' => 'Adjectives in a Job Title 🚩',
+            'excerpt' => 'More adjectives in a job title don\'t make the job seem more exciting or important.',
+            'published_at' => '2023-03-24',
+            'category' => 'work',
+            'body' => file_get_contents('database/seeders/posts/adjectives-in-job-titles.md')
+        ]);
 
         $collection = Collection::create([
             'name' => 'Cancun 2022',
