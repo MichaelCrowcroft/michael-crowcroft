@@ -52,6 +52,13 @@ class DatabaseSeeder extends Seeder
             'category' => 'work',
             'body' => file_get_contents('database/seeders/posts/adjectives-in-job-titles.md')
         ]);
+        Post::create([
+            'title' => 'There are no Shortcuts',
+            'excerpt' => 'Doing your 10,000 hours to master a skill, is only just the starting point to achieve simplicity.',
+            'published_at' => '2023-03-28',
+            'category' => 'work',
+            'body' => file_get_contents('database/seeders/posts/no-shortcuts.md')
+        ]);
 
         $collection = Collection::create([
             'name' => 'Cancun 2022',
