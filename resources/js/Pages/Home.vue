@@ -12,6 +12,8 @@ defineProps({
 <template>
     <Head>
         <title>Michael Crowcroft's Website</title>
+        <link rel="canonical" href="https://www.michaelcrowcroft.com" />
+
     </Head>
 
     <Layout>

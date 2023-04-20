@@ -9,6 +9,7 @@ import { Head, Link } from '@inertiajs/vue3';
 <template>
     <Head>
         <title>Michael Crowcroft's Résumé</title>
+        <link rel="canonical" href="https://www.michaelcrowcroft.com/resume" />
     </Head>
 
     <Layout>

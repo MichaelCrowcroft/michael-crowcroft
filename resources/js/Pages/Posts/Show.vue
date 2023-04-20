@@ -15,6 +15,7 @@ defineProps({
 <template>
     <Head>
         <title>{{ post.title }} | Michael</title>
+        <link rel="canonical" :href="'https://www.michaelcrowcroft.com/posts/' + post.slug" />
     </Head>
 
     <Layout>
