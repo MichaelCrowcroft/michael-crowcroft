@@ -23,10 +23,9 @@ defineProps({
             <div class="w-full lg:w-2/5 xl:w-2/5 2xl:w-2/5 lg:pr-8 xl:pr-8 2xl:pr-8">
                 <h1 class="leading-none font-serif text-5xl">Hey there,</h1>
                 <h3 class="font-serif text-3xl">Welcome to my Website 👋</h3>
-                <p>(Want to hire me? Here's <Link class="text-teal-800 hover:underline" href="/resume">my résumé</Link>)</p>
                 <hr class="block border-t-1 border-gray-400 mx-auto my-6"/>
                 <div class="flex justify-between items-center space-x-4">
-                    <p>Reach out at <a class="text-teal-800 hover:underline" href="mailto:michaelcrowcroft@outlook.com">michaelcrowcroft@outlook.com</a></p>
+                    <p>Want to work with me? Reach out at <a class="text-teal-800 hover:underline" href="mailto:michaelcrowcroft@outlook.com">michaelcrowcroft@outlook.com</a></p>
                 </div>
                 <hr class="block border-t-1 border-gray-400 mx-auto my-6"/>
             </div>
