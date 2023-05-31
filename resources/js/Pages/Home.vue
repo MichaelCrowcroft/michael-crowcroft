@@ -21,7 +21,7 @@ defineProps({
                     text-center lg:text-left xl:text-left 2xl:text-left p-5 md:p-10
                     lg:p-20 xl:p-20 2xl:p-20">
             <div class="w-full lg:w-2/5 xl:w-2/5 2xl:w-2/5 lg:pr-8 xl:pr-8 2xl:pr-8">
-                <h1 class="leading-none font-serif text-5xl">Hey there,</h1>
+                <h1 class="leading-none font-serif text-5xl">Hey Brex,</h1>
                 <h3 class="font-serif text-3xl">Welcome to my Website 👋</h3>
                 <hr class="block border-t-1 border-gray-400 mx-auto my-6"/>
                 <div class="flex justify-between items-center space-x-4">

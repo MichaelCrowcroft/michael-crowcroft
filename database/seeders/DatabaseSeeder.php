@@ -45,13 +45,13 @@ class DatabaseSeeder extends Seeder
             'category' => 'work',
             'body' => file_get_contents('database/seeders/posts/ad-supported-streaming-sucks.md')
         ]);
-        Post::create([
-            'title' => 'Adjectives in a Job Title 🚩',
-            'excerpt' => 'More adjectives in a job title don\'t make the job seem more exciting or important.',
-            'published_at' => '2023-03-24',
-            'category' => 'work',
-            'body' => file_get_contents('database/seeders/posts/adjectives-in-job-titles.md')
-        ]);
+        // Post::create([
+        //     'title' => 'Adjectives in a Job Title 🚩',
+        //     'excerpt' => 'More adjectives in a job title don\'t make the job seem more exciting or important.',
+        //     'published_at' => '2023-03-24',
+        //     'category' => 'work',
+        //     'body' => file_get_contents('database/seeders/posts/adjectives-in-job-titles.md')
+        // ]);
         Post::create([
             'title' => 'There are no Shortcuts',
             'excerpt' => 'Doing your 10,000 hours to master a skill, is only just the starting point to achieve simplicity.',
