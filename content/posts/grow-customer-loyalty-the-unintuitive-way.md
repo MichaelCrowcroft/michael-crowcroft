@@ -1,3 +1,10 @@
+---
+title: 'Grow Customer Loyalty the Unintuitive Way'
+slug: 'grow-customer-loyalty-the-unintuitive-way'
+published_at: '2021-02-03'
+category: 'work'
+---
+
 In an effort to make sure customers keep coming back many brands invest in loyalty schemes and complex CRM systems. In 2019 [research showed that brands spent over $300 billion on loyalty schemes in the USA](https://hospitalitytech.com/71-companies-invest-2-total-revenue-loyalty-crm), with 55% of c-suite executives saying that they intend to continue increasing their investment in the space.
 
 What's fueling this is a drive for marketers to be 'customer centric' and data driven. Loyalty schemes are borne out of the best intentions - they let brands offer discounts and incentives to their most valuable customers (we will ignore the data mining that goes along with that). If we're really being data driven though, we should look at what the data and research tells us about customer loyalty in general.

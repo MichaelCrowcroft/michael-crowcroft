@@ -1,3 +1,10 @@
+---
+title: "Advertising Could be Apple's Next $50b"
+slug: 'advertising-could-be-apples-next-50b'
+published_at: '2023-03-28'
+category: 'work'
+---
+
 The internet has been buzzing with rumours that Apple is planning to enter advertising in a big way, with some sites reporting that [Apple is building a Demand Side Platform (DSP)](https://digiday.com/media/apple-is-building-a-demand-side-platform/). There's no formal word from Apple, however a [recent job ad seems](https://web.archive.org/web/20220817012221/https://jobs.apple.com/en-us/details/200369598/senior-product-manager-demand-side-platform-ad-platforms) to be the most revealing clue.
 
 Saying Apple is building a DSP is missing the trees for the forest. When people talk about DSPs they're usually talking about ['programmatic media'](https://www.match2one.com/blog/what-is-programmatic-advertising/), which is the strange web of open ad exchanges and supply side platforms that exists to flood the internet with crappy display banners. There's three reasons Apple won't be getting into programmatic media:

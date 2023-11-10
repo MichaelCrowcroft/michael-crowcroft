@@ -1,3 +1,10 @@
+---
+title: 'There are no Shortcuts'
+slug: 'there-are-no-shortcuts'
+published_at: '2022-08-19'
+category: 'work'
+---
+
 The most sure sign of mastery is the ability to simplify. Often though, ‘simple’ is mistaken for ‘easy’. When an industry outsider, or a beginner looks at simple work and discounts its value, it’s a sign that they don’t understand the topic.
 
 [Picasso’s Bull](https://www.artyfactory.com/art_appreciation/animals_in_art/pablo_picasso.htm) is a great visual representation of the effort required to achieve simplicity. In order to create a simple abstraction of a bull, you must first be able to define the bull in all the depth and detail you possibly can.

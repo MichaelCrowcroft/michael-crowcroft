@@ -32,7 +32,7 @@ defineProps({
             <div class="w-full overflow-scroll max-h-full lg:w-3/5 xl:w-3/5 2xl:w-3/5 lg:pl-8 xl:pl-8 2xl:pl-8">
                 <hr class="block border-t-1 border-gray-900 mx-auto my-6"/>
                 <Container>
-                    <div v-for="(post, index) in posts" :key="post.id">
+                    <div v-for="(post, index) in posts" :key="post.slug">
                         <hr v-if="index != 0" class="block border-t-1 border-gray-400 mx-auto my-6"/>
                         <PostPreview :post="post" />
                     </div>

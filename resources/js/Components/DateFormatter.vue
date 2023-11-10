@@ -1,11 +1,11 @@
 <script setup>
-import { parseISO, format } from 'date-fns';
+import { parse, format } from 'date-fns';
 
 const props = defineProps({
     date: String
 });
 
-const date = parseISO(props.date);
+const date = parse(props.date);
 </script>
 
 <template>

@@ -6,25 +6,15 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
+    use \Orbit\Concerns\Orbital;
+
     public function up()
     {
         Schema::create('posts', function (Blueprint $table) {
-            $table->id();
-            $table->unsignedBigInteger('collection_id')->nullable();
-
             $table->string('title');
             $table->string('slug')->unique();
-            $table->string('excerpt');
-            $table->longText('body');
-            $table->enum('category', ['travel', 'work', 'daily']);
+            $table->string('category');
             $table->date('published_at')->nullable();
-
-            $table->timestamps();
         });
     }
 
