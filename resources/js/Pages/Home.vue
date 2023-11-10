@@ -35,13 +35,14 @@ defineProps({
                 </div>
                 <hr class="block border-t-1 border-gray-400 mx-auto my-6"/>
 
+                <h3 class="text-2xl font-bold text-center font-serif leading-none mb-6">Current Projects</h3>
                 <div class="grid grid-cols-2 gap-2">
                     <div class="flex flex-col items-center" v-for="project in projects" :key="project.slug">
-                        <h3 class="text-2xl font-serif leading-none mb-3">
+                        <h4 class="text-xl font-serif leading-none mb-3">
                             <a :href="project.link" class="font-black hover:underline text-teal-800">
                                 {{ project.name }}
                             </a>
-                        </h3>
+                        </h4>
                         <img class="w-20" :src="project.logo" />
                         <p class="text-xs text-gray-600 px-4 leading-relaxed">
                             <VueMarkdown :source="project.content" :options="options" class="prose text-center" />
@@ -51,8 +52,6 @@ defineProps({
                         </a>
                     </div>
                 </div>
-
-                <hr class="block border-t-1 border-gray-400 mx-auto my-6"/>
             </div>
 
             <div class="w-full overflow-scroll max-h-full lg:w-3/5 xl:w-3/5 2xl:w-3/5 lg:pl-8 xl:pl-8 2xl:pl-8">
