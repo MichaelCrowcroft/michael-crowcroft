@@ -33,10 +33,9 @@ defineProps({
             <div class="py-32">
                 <p class="text-md text-cyan-600 font-bold tracking-tight uppercase">Blog</p>
                     <h1 class="text-2xl font-bold text-slate-800 leading-none mb-8">
-                        Everyone Needs a Blog Right?
+                        Recent Thoughts
                     </h1>
                 <div v-for="(post, index) in posts" :key="post.slug">
-                    <hr v-if="index != 0" class="block border-t-1 border-gray-400 mx-auto my-6"/>
                     <PostPreview :post="post" />
                 </div>
             </div>
