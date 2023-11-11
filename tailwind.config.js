@@ -9,45 +9,12 @@ module.exports = {
     ],
 
     theme: {
-        colors: {
-            gray: colors.neutral,
-            teal: colors.teal,
-        },
         extend: {
             fontFamily: {
-                serif: [
-                    'Playfair Display'
-                ],
                 sans: [
-                    'Lato'
-                ],
-                mono: [
-                    'monospace',
+                    'Montserrat'
                 ],
             },
-            typography: (theme) => ({
-                DEFAULT: {
-                    css: {
-                        color: theme('colors.gray.800'),
-                        a: {
-                            color: theme('colors.teal.800'),
-                            textDecoration: 'underline',
-                        },
-                        h1: {
-                            fontFamily: theme('fontFamily.serif'),
-                        },
-                        h2: {
-                            fontFamily: theme('fontFamily.serif'),
-                        },
-                        h3: {
-                            fontFamily: theme('fontFamily.serif'),
-                        },
-                        h4: {
-                            fontFamily: theme('fontFamily.serif'),
-                        },
-                    },
-                },
-            }),
         },
     },
     plugins: [

@@ -1,9 +1,8 @@
 <script setup>
 import Layout from '@/Layouts/Layout.vue';
-import Container from '@/Components/Container.vue';
 import PostPreview from '@/Components/PostPreview.vue';
 import { Head, Link } from '@inertiajs/vue3';
-import VueMarkdown from 'vue-markdown-render'
+import HelloFreshLogo from '@/Components/HelloFreshLogo.vue';
 
 defineProps({
     posts: Object,
@@ -18,52 +17,30 @@ defineProps({
     </Head>
 
     <Layout>
-        <div class="flex flex-wrap items-center lg:h-screen xl:h-screen 2xl:h-screen
-                    text-center lg:text-left xl:text-left 2xl:text-left p-5 md:p-10
-                    lg:p-20 xl:p-20 2xl:p-20">
-            <div class="w-full lg:w-2/5 xl:w-2/5 2xl:w-2/5 lg:pr-8 xl:pr-8 2xl:pr-8">
-                <div class="lg:flex lg:justify-between lg:items-end">
-                    <div class="flex-auto">
-                        <h1 class="leading-none font-serif text-5xl">Hey there,</h1>
-                        <h3 class="font-serif text-3xl">Welcome to my Website</h3>
-                    </div>
-                </div>
+        <div class="mx-auto w-full h-screen max-w-4xl p-16">
+            <!-- <img class="rounded-full border-cyan-400 border w-24 shadow-xl" src="https://avatars.githubusercontent.com/u/11324235?v=4"> -->
+            <p class="text-md text-cyan-600 font-bold tracking-tight uppercase">About Me</p>
+            <h1 class="text-2xl font-bold text-slate-800 leading-none mb-8">
+                Hey there, it's Michael.
+            </h1>
+            <p class="text-slate-800 mb-4">I'm a marketer at <a href="https://www.hellofresh.com" class="font-bold hover:cursor-pointer"><HelloFreshLogo class="h-4 inline"/>  HelloFresh</a>, with priors at <a href="https://www.xero.com" class="font-bold hover:cursor-pointer">Xero</a>, and <a href="https://www.ogilvy.com" class="font-bold hover:cursor-pointer">Ogilvy</a>.</p>
+            <p class="text-slate-800 mb-4">Originally from Auckland, but currently based in Toronto. Let me know if you're in town and want to grab coffee!</p>
+            <p class="text-slate-800">I'm always working on a side project, and am currently obsessed with ad fraud. <a href="https://www.linklooper.com" class="z-10 font-bold hover:cursor-pointer">Link Looper</a> is a tool that helps marketers identify and stop ad fraud, and <a href="https://badvertising.io" class="z-10 font-bold hover:cursor-pointer">Badvertising</a> houses the research I'm doing into programmatic ad exchanges.</p>
 
-                <hr class="block border-t-1 border-gray-400 mx-auto my-6"/>
-                <div class="flex justify-between items-center space-x-4">
-                    <p>Want to work with me? Reach out at <a class="text-teal-800 hover:underline" href="mailto:michaelcrowcroft@outlook.com">michaelcrowcroft@outlook.com</a></p>
-                </div>
-                <hr class="block border-t-1 border-gray-400 mx-auto my-6"/>
 
-                <h3 class="text-2xl font-bold text-center font-serif leading-none mb-6">Current Projects</h3>
-                <div class="grid grid-cols-2 gap-2">
-                    <div class="flex flex-col items-center" v-for="project in projects" :key="project.slug">
-                        <h4 class="text-xl font-serif leading-none mb-3">
-                            <a :href="project.link" class="font-black hover:underline text-teal-800">
-                                {{ project.name }}
-                            </a>
-                        </h4>
-                        <img class="w-20" :src="project.logo" />
-                        <p class="text-xs text-gray-600 px-4 leading-relaxed">
-                            <VueMarkdown :source="project.content" :options="options" class="prose text-center" />
-                        </p>
-                        <a :href="project.link" class="font-black hover:underline text-teal-800">
-                            View Project
-                        </a>
-                    </div>
+
+
+            <div class="py-32">
+                <p class="text-md text-cyan-600 font-bold tracking-tight uppercase">Blog</p>
+                    <h1 class="text-2xl font-bold text-slate-800 leading-none mb-8">
+                        Everyone Needs a Blog Right?
+                    </h1>
+                <div v-for="(post, index) in posts" :key="post.slug">
+                    <hr v-if="index != 0" class="block border-t-1 border-gray-400 mx-auto my-6"/>
+                    <PostPreview :post="post" />
                 </div>
             </div>
 
-            <div class="w-full overflow-scroll max-h-full lg:w-3/5 xl:w-3/5 2xl:w-3/5 lg:pl-8 xl:pl-8 2xl:pl-8">
-                <hr class="block border-t-1 border-gray-900 mx-auto my-6"/>
-                <Container>
-                    <div v-for="(post, index) in posts" :key="post.slug">
-                        <hr v-if="index != 0" class="block border-t-1 border-gray-400 mx-auto my-6"/>
-                        <PostPreview :post="post" />
-                    </div>
-                </Container>
-                <hr class="block border-t-1 border-gray-900 mx-auto my-6"/>
-            </div>
         </div>
     </Layout>
 </template>
