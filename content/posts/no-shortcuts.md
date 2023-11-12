@@ -2,7 +2,7 @@
 title: 'There are no Shortcuts'
 slug: 'there-are-no-shortcuts'
 published_at: '2022-08-19'
-category: 'work'
+category: 'career'
 ---
 
 The most sure sign of mastery is the ability to simplify. Often though, ‘simple’ is mistaken for ‘easy’. When an industry outsider, or a beginner looks at simple work and discounts its value, it’s a sign that they don’t understand the topic.

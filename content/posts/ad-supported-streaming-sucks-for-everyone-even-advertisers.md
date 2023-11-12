@@ -2,7 +2,7 @@
 title: 'Ad Supported Streaming Sucks for Everyone Even Advertisers'
 slug: 'ad-supported-streaming-sucks-for-everyone-even-advertisers'
 published_at: '2022-09-21'
-category: 'work'
+category: 'media'
 ---
 
 Aside from public funded media, there's almost always a three way relationship between media companies, advertisers and audiences. Media companies and audiences don't really *like* advertising, but advertisers have the money available to fund media companies so they can produce content audiences **actually** want. Advertisers are the loud and obnoxious men in nightclubs – no one really wants them there, but you put up with them because they're paying for everyone's drinks.

@@ -2,7 +2,7 @@
 title: "Advertising Could be Apple's Next $50b"
 slug: 'advertising-could-be-apples-next-50b'
 published_at: '2023-03-28'
-category: 'work'
+category: 'media'
 ---
 
 The internet has been buzzing with rumours that Apple is planning to enter advertising in a big way, with some sites reporting that [Apple is building a Demand Side Platform (DSP)](https://digiday.com/media/apple-is-building-a-demand-side-platform/). There's no formal word from Apple, however a [recent job ad seems](https://web.archive.org/web/20220817012221/https://jobs.apple.com/en-us/details/200369598/senior-product-manager-demand-side-platform-ad-platforms) to be the most revealing clue.

@@ -1,12 +1,15 @@
 <script setup>
 import { Link } from '@inertiajs/vue3';
+import { ArrowUturnLeftIcon } from '@heroicons/vue/24/solid'
 
 </script>
+
 <template>
-    <h2 class="leading-6 text-4xl font-black mb-20 mt-8 text-cyan-600">
-        <Link href="/" class="hover:underline">
-            <span>Michael</span><br />
-            <span class="text-3xl">Crowcroft</span>
+    <div class="mb-20 mt-8 sticky top-0">
+        <Link href="/">
+            <div class="bg-pink-100 backdrop-blur shadow bg-opacity-25 py-4 px-4 w-16 transition ease-in-out duration-50 hover:cursor-pointer hover:shadow-lg">
+                <ArrowUturnLeftIcon class="h-8 w-8 fill-cyan-600" />
+            </div>
         </Link>
-    </h2>
+    </div>
 </template>

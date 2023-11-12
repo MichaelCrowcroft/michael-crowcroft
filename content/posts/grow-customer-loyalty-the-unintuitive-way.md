@@ -2,7 +2,7 @@
 title: 'Grow Customer Loyalty the Unintuitive Way'
 slug: 'grow-customer-loyalty-the-unintuitive-way'
 published_at: '2021-02-03'
-category: 'work'
+category: 'media'
 ---
 
 In an effort to make sure customers keep coming back many brands invest in loyalty schemes and complex CRM systems. In 2019 [research showed that brands spent over $300 billion on loyalty schemes in the USA](https://hospitalitytech.com/71-companies-invest-2-total-revenue-loyalty-crm), with 55% of c-suite executives saying that they intend to continue increasing their investment in the space.

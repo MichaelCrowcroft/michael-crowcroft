@@ -2,7 +2,7 @@
 title: 'Adjectives in a Job Title 🚩'
 slug: 'adjectives-in-job-title'
 published_at: '2023-03-24'
-category: 'work'
+category: 'career'
 ---
 
 I’ve recently become interested in the job market again, and it’s weird out there. Building a career in marketing has been a shit show for a while now thanks to the [proliferation of gurus, growth hackers, and ninjas](https://www.marketingweek.com/mark-ritson-maybe-its-just-me-but-shouldnt-an-expert-in-marketing-be-trained-in-marketing/). Marketers have always had a penchant for nonsense, but by the end of 2010s it felt like we were starting to clean house a bit – [we had gone past peak Shingy](https://nymag.com/intelligencer/2019/10/shingy-reflects-on-his-time-at-aol-and-whats-next.html).
