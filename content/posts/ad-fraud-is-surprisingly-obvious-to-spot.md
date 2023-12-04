@@ -5,7 +5,7 @@ published_at: '2023-11-12'
 category: 'media'
 ---
 
-Digital media has been around for multiple decades at this point, but has :still failed to clean up its ad fraud mess. What’s worse, it’s getting worse at it. Incredibly each year the amount of [money spent on ad fraud protection **increases**](https://finance.yahoo.com/news/integral-ad-science-holding-corp-232121188.html) while at the same time the [amount of ad fraud occurring is **also increasing**](https://blog.optickssecurity.com/2023-ad-fraud-report-key-findings). Who’s scamming who?
+Digital media has been around for multiple decades at this point, but has **still** failed to clean up its ad fraud mess. What’s worse, it’s getting worse at it. Incredibly each year the amount of [money spent on ad fraud protection **increases**](https://finance.yahoo.com/news/integral-ad-science-holding-corp-232121188.html) while at the same time the [amount of ad fraud occurring is **also increasing**](https://blog.optickssecurity.com/2023-ad-fraud-report-key-findings). Who’s scamming who?
 
 As an absolute bare minimum advertisers should be able to know what they’re buying. However, if you buy ads through Google’s ad network it is impossible to know what sites or apps you’re buying ads on. *After* you run a campaign Google will usually provide reporting that says where your ads ran but running a lucky dip and calling it an ad exchange shouldn’t be a multi-billion dollar business.
 
