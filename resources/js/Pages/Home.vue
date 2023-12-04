@@ -38,6 +38,29 @@ defineProps({
                 </div>
             </div>
 
+            <div class="py-32">
+                <p class="text-md text-cyan-600 font-bold tracking-tight uppercase">Projects</p>
+                <h1 class="text-2xl font-bold text-slate-800 leading-none mb-8">
+                    What I'm Working On
+                </h1>
+                <div class="grid grid-cols-2 gap-x-8">
+                    <div v-for="project in projects" :key="project.slug">
+                        <a :href="project.link">
+                            <div class="flex gap-x-4 bg-pink-100 backdrop-blur shadow bg-opacity-25 p-4 mb-8 transition ease-in-out duration-50 hover:cursor-pointer hover:shadow-lg lg:p-8">
+                                <img class="h-24 w-24" :src="project.logo" />
+                                <div>
+                                    <h3 class="text-lg leading-none font-black text-slate-900">
+                                        {{ project.name }}
+                                    </h3>
+                                    <p class="mt-2 text-sm leading-tight">{{ project.content }}</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
     </Layout>
 </template>
