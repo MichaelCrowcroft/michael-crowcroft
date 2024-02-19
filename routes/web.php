@@ -17,3 +17,7 @@ Route::get('/posts/{post}', [PostController::class, 'show']);
 Route::get('/resume', function () {
     return Inertia::render('Resume');
 });
+
+Route::get('/probability', function () {
+    return Inertia::render('Probability');
+});

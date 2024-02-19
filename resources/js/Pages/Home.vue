@@ -51,7 +51,7 @@ defineProps({
                 <div class="grid grid-cols-2 gap-x-8">
                     <div v-for="project in projects" :key="project.slug">
                         <a :href="project.link">
-                            <div class="flex gap-x-4 bg-pink-100 backdrop-blur shadow bg-opacity-25 p-4 mb-8 transition ease-in-out duration-50 hover:cursor-pointer hover:shadow-lg lg:p-8">
+                            <div class="flex gap-x-6 bg-pink-100 backdrop-blur shadow bg-opacity-25 items-center p-4 mb-8 transition ease-in-out duration-50 hover:cursor-pointer hover:shadow-lg lg:p-8">
                                 <img class="h-24 w-24" :src="project.logo" />
                                 <div>
                                     <h3 class="text-lg leading-none font-black text-slate-900">
@@ -63,7 +63,6 @@ defineProps({
                         </a>
                     </div>
                 </div>
-
             </div>
 
         </div>

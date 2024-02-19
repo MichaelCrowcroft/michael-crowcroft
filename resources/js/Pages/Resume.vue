@@ -1,8 +1,6 @@
 <script setup>
 import Layout from '@/Layouts/Layout.vue';
-import Container from '@/Components/Container.vue';
 import { Head, Link } from '@inertiajs/vue3';
-
 
 </script>
 
@@ -127,6 +125,7 @@ import { Head, Link } from '@inertiajs/vue3';
                 </div>
             </div>
             </div>
+            <img src="https://fyi.test/pixel/01hht0p4jwsrrk91txy04qhha3?campaign=sdf" />
 
         </div>
 
