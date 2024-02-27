@@ -17,6 +17,7 @@ class Project extends Model
         $table->string('slug')->unique();
         $table->string('logo');
         $table->string('link');
+        $table->string('summary');
     }
 
     public function getRouteKeyName(): string

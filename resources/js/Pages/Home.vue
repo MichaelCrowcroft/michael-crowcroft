@@ -4,6 +4,7 @@ import PostPreview from '@/Components/PostPreview.vue';
 import { Head, Link } from '@inertiajs/vue3';
 import HelloFreshLogo from '@/Components/HelloFreshLogo.vue';
 import Nav from '@/Components/Nav.vue';
+import { ArrowRightIcon } from '@heroicons/vue/24/solid';
 
 defineProps({
     posts: Object,
@@ -50,17 +51,20 @@ defineProps({
                 </h1>
                 <div class="grid grid-cols-2 gap-x-8">
                     <div v-for="project in projects" :key="project.slug">
-                        <a :href="project.link">
-                            <div class="flex gap-x-6 bg-pink-100 backdrop-blur shadow bg-opacity-25 items-center p-4 mb-8 transition ease-in-out duration-50 hover:cursor-pointer hover:shadow-lg lg:p-8">
+                        <Link :href="project.link">
+                            <div class="flex gap-x-6 bg-pink-100 backdrop-blur shadow bg-opacity-25 items-center p-4 mb-2 transition ease-in-out duration-50 hover:cursor-pointer hover:shadow-lg lg:p-8">
                                 <img class="h-24 w-24" :src="project.logo" />
                                 <div>
                                     <h3 class="text-lg leading-none font-black text-slate-900">
                                         {{ project.name }}
                                     </h3>
-                                    <p class="mt-2 text-sm leading-tight">{{ project.content }}</p>
+                                    <p class="mt-2 text-sm leading-tight">{{ project.summary }}</p>
                                 </div>
                             </div>
-                        </a>
+                        </Link>
+                        <Link :href="'/projects/' + project.slug" class="py-2 px-4 float-right inline-flex items-center font-bold bg-pink-100 backdrop-blur shadow bg-opacity-25 transition ease-in-out duration-50 hover:cursor-pointer hover:shadow-lg">
+                            <div class="mr-2">Project Updates</div><ArrowRightIcon class="h-4"></ArrowRightIcon>
+                        </Link>
                     </div>
                 </div>
             </div>

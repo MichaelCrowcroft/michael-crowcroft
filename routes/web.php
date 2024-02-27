@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\ProjectController;
 use App\Models\Post;
 use App\Models\Project;
 use Illuminate\Support\Facades\Route;
@@ -13,6 +14,8 @@ Route::get('/', function () {
     ]);
 });
 Route::get('/posts/{post}', [PostController::class, 'show']);
+
+Route::get('/projects/{project}', [ProjectController::class, 'show']);
 
 Route::get('/resume', function () {
     return Inertia::render('Resume');
