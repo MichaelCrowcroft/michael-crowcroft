@@ -12,7 +12,7 @@ defineProps({
 
 <template>
     <Head>
-        <title>{{ project.title }} | Michael</title>
+        <title>{{ project.name }} | Michael</title>
         <link rel="canonical" :href="'https://www.michaelcrowcroft.com/projects/' + project.slug" />
     </Head>
 
