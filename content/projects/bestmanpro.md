@@ -8,9 +8,14 @@ summary: 'Tailor made speeches for best men. Ready in five minutes.'
 
 # February 2024
 **V1 Launched**
+
 - Allow editing in the app UI
 - Allow users to download PDF
 - Created Tips/Blog section
 - Published first tips
 - Setup AI integration and speech generators
 - Setup payment processing
+
+Trialed SEM with launch, found that traffic could be delivered cheaply against exact match ‘best man speech’ terms, however traffic was low intent and did not convert. In fact no one even created a speech outline.
+
+Marketing will pivot towards affiliate marketing, SEO and some digital PR.
