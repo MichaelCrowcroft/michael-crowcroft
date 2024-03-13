@@ -7,6 +7,7 @@ summary: 'Tailor made speeches for best men. Ready in five minutes.'
 ---
 
 # February 2024
+
 **V1 Launched**
 
 - Allow editing in the app UI
