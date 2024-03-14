@@ -3,7 +3,6 @@ import Layout from '@/Layouts/Layout.vue';
 import PostPreview from '@/Components/PostPreview.vue';
 import { Head, Link } from '@inertiajs/vue3';
 import HelloFreshLogo from '@/Components/HelloFreshLogo.vue';
-import Nav from '@/Components/Nav.vue';
 import { ArrowRightIcon } from '@heroicons/vue/24/solid';
 
 defineProps({
@@ -27,12 +26,12 @@ defineProps({
                         Hey there, it's Michael.
                     </h1>
                 </div>
-            <img class="rounded-full border-cyan-400 border w-24 shadow-xl" src="https://avatars.githubusercontent.com/u/11324235?v=4">
+                <img class="rounded-full border-cyan-400 border w-28 shadow-xl" src="https://avatars.githubusercontent.com/u/11324235?v=4">
             </div>
 
-            <p class="text-slate-800 mb-4">I'm a marketer at <a href="https://www.hellofresh.com" class="font-bold hover:cursor-pointer"><HelloFreshLogo class="h-4 inline"/>  HelloFresh</a>, with priors at <a href="https://www.xero.com" class="font-bold hover:cursor-pointer">Xero</a>, and <a href="https://www.ogilvy.com" class="font-bold hover:cursor-pointer">Ogilvy</a>.</p>
-            <p class="text-slate-800 mb-4">Originally from Auckland, currently based in Toronto. Let me know if you're in town and want to grab coffee!</p>
-            <p class="text-slate-800 pb-16">I'm always working on a side project, and am currently obsessed with ad fraud. <a href="https://www.linklooper.com" class="z-10 font-bold hover:cursor-pointer">Link Looper</a> is a tool that helps marketers identify and stop ad fraud, and <a href="https://www.bestmanpro.com" class="z-10 font-bold hover:cursor-pointer">Bestman Pro</a> is a tool I'm building to better understand text based LLMs.</p>
+            <p class="text-slate-800 mb-4">I'm a marketer at <a href="https://www.hellofresh.com" class="font-bold hover:cursor-pointer"><HelloFreshLogo class="h-4 inline"/>  HelloFresh</a>, previously worked at <a href="https://www.xero.com" class="font-bold hover:cursor-pointer">Xero</a>, and <a href="https://www.ogilvy.com" class="font-bold hover:cursor-pointer">Ogilvy</a>.</p>
+            <p class="text-slate-800 mb-4">Originally from Auckland, currently based in Toronto. Finally getting a taste of decent pizza, if you know a good spot, hit me up!</p>
+            <p class="text-slate-800 pb-16">I'm always working on a side project, currently putting together some guides building out marketing analytics infrastructure. <a href="https://www.linklooper.com/platform" class="z-10 font-bold hover:cursor-pointer">Link Looper</a> is a tool that helps marketers identify and stop ad fraud, and <a href="https://www.bestmanpro.com/platform" class="z-10 font-bold hover:cursor-pointer">Bestman Pro</a> is a tool I'm building to better understand text based LLMs and OpenAI's Assistant API.</p>
 
             <div class="py-16">
                 <p class="text-md text-cyan-600 font-bold tracking-tight uppercase">Blog</p>

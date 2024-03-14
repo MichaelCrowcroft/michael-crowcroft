@@ -20,3 +20,8 @@ summary: 'Tailor made speeches for best men. Ready in five minutes.'
 Trialed SEM with launch, found that traffic could be delivered cheaply against exact match ‘best man speech’ terms, however traffic was low intent and did not convert. In fact no one even created a speech outline.
 
 Marketing will pivot towards affiliate marketing, SEO and some digital PR.
+
+# March 2024
+
+- Added a stepper to the speech outline form so people can see their progress through the form.
+- Migrated API calls to use the Assistant API
