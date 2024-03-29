@@ -18,7 +18,7 @@ defineProps({
     </Head>
 
     <Layout>
-        <div class="mx-auto w-full h-screen max-w-4xl my-16 px-4">
+        <div class="mx-auto w-full h-screen max-w-4xl my-16 px-6">
             <div class="flex justify-between">
                 <div>
                     <p class="text-md text-cyan-600 font-bold tracking-tight uppercase">About Me</p>
