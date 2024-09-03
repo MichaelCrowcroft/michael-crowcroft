@@ -43,7 +43,7 @@ defineProps({
                 </div>
             </div>
 
-            <div class="py-32">
+            <!-- <div class="py-32">
                 <p class="text-md text-cyan-600 font-bold tracking-tight uppercase">Projects</p>
                 <h1 class="text-2xl font-bold text-slate-800 leading-none mb-8">
                     What I'm Working On
@@ -66,7 +66,7 @@ defineProps({
                         </Link>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </div>
     </Layout>
